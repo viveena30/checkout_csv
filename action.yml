@@ -5,6 +5,10 @@ inputs:
   csvPath:
     description: Path to the CSV file
     required: true
+  cleanup:
+    description: Perform cleanup after checkout
+    required: false
+    default: 'false'
 runs:
   using: 'node12'
   main: 'index.js'
