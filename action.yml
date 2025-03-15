@@ -1,0 +1,10 @@
+name: Custom Checkout Action
+description: Checkout repositories from a CSV file
+author: Your Name
+inputs:
+  csvPath:
+    description: Path to the CSV file
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
